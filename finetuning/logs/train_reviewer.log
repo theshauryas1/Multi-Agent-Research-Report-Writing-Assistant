@@ -1,0 +1,19 @@
+2026-02-12 19:17:12,959 - INFO - ============================================================
+2026-02-12 19:17:12,959 - INFO - Training Reviewer Agent
+2026-02-12 19:17:12,960 - INFO - ============================================================
+2026-02-12 19:17:13,589 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 19:17:13,646 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/phi-2/810d367871c1d460086d9f82db8696f2e0a0fcd0/config.json "HTTP/1.1 200 OK"
+2026-02-12 19:17:13,706 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/phi-2/810d367871c1d460086d9f82db8696f2e0a0fcd0/config.json "HTTP/1.1 200 OK"
+2026-02-12 19:17:14,055 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-02-12 19:17:14,413 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 19:17:14,464 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/phi-2/810d367871c1d460086d9f82db8696f2e0a0fcd0/config.json "HTTP/1.1 200 OK"
+2026-02-12 19:17:22,145 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-02-12 19:17:22,423 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/main/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+2026-02-12 19:17:22,452 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/phi-2/810d367871c1d460086d9f82db8696f2e0a0fcd0/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-02-12 19:17:22,646 - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/phi-2/810d367871c1d460086d9f82db8696f2e0a0fcd0/model.safetensors.index.json "HTTP/1.1 200 OK"
+2026-02-12 19:17:22,926 - INFO - HTTP Request: GET https://huggingface.co/api/models/microsoft/phi-2/revision/main "HTTP/1.1 200 OK"
+2026-02-12 19:17:23,169 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/810d367871c1d460086d9f82db8696f2e0a0fcd0/model-00001-of-00002.safetensors "HTTP/1.1 302 Found"
+2026-02-12 19:17:23,373 - INFO - HTTP Request: HEAD https://huggingface.co/microsoft/phi-2/resolve/810d367871c1d460086d9f82db8696f2e0a0fcd0/model-00002-of-00002.safetensors "HTTP/1.1 302 Found"
+2026-02-12 19:17:23,477 - INFO - HTTP Request: GET https://huggingface.co/api/models/microsoft/phi-2/xet-read-token/810d367871c1d460086d9f82db8696f2e0a0fcd0 "HTTP/1.1 200 OK"
+2026-02-12 19:17:23,626 - INFO - HTTP Request: GET https://huggingface.co/api/models/microsoft/phi-2/xet-read-token/810d367871c1d460086d9f82db8696f2e0a0fcd0 "HTTP/1.1 200 OK"
+2026-02-12 19:17:51,639 - ERROR - Training failed: Data processing error: CAS service error : IO Error: There is not enough space on the disk. (os error 112)

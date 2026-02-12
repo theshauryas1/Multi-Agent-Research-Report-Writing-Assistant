@@ -1,0 +1,15 @@
+{
+  "dataset_name": "synthetic_quality_dataset",
+  "total_samples": 6000,
+  "splits": {
+    "train": 4800,
+    "validation": 600,
+    "test": 600
+  },
+  "labels": [
+    "weak",
+    "acceptable",
+    "good"
+  ],
+  "instruction": "Evaluate the quality of the following research paragraph. Classify it as 'good', 'acceptable', or 'weak' based on clarity, coherence, evidence support, and academic rigor."
+}

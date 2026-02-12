@@ -1,0 +1,15 @@
+{
+  "dataset_name": "synthetic_factcheck_dataset",
+  "total_samples": 6000,
+  "splits": {
+    "train": 4800,
+    "validation": 600,
+    "test": 600
+  },
+  "labels": [
+    "SUPPORTS",
+    "REFUTES",
+    "NOT_ENOUGH_INFO"
+  ],
+  "instruction": "Verify the following claim using the provided evidence. Classify as 'SUPPORTS' if the evidence confirms the claim, 'REFUTES' if it contradicts the claim, or 'NOT_ENOUGH_INFO' if there is insufficient evidence."
+}
